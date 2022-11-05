@@ -1,0 +1,13 @@
+Merge Sort bir diziyi son hücre kalana kadar düzenli bir şekilde böler. Sonra bu dizileri birleştirmek istediğimizde elemanları en küçükten en büyüğe doğru alır.
+
+İlk olarak örneğimizde bulunan [16,21,11,8,12,22] dizisini böleceğim.
+[16,21,11] ve [8,12,22] şeklinde ikiye bölüyoruz.
+İkinci olarak bölünen kısımlar elimize [16] / [21,11] ve [8,12] / [22] şeklinde çıkmış oluyor.
+Üçüncü kısımda hepsi tek tek bölünmüş oluyor. [16] / [21] / [11] ve [8] / [12] / [22] şeklinde.
+
+Başta da belirttiğim gibi Merge Sort bir diziyi böldükten sonra elemanları en küçükten en büyüğe doğru sıralar. 
+Bu yüzden de elemanlarımız [11,16,21] ve [8,12,22] şeklinde sıralanıyor.
+Hepsinin sıralanmış şekli ise bize [8,11,12,16,21,22] sonucunu veriyor.
+
+
+Big-O gösterimi ise O(nlogn) şeklinde olmuş oluyor. 
